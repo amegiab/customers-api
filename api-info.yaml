@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: customers-api
+  description: API implemented by customers service
+spec:
+  type: openapi
+  lifecycle: production
+  owner: customer-processes
+  definition:
+    $text: https://github.com/amegiab/customers-api/blob/main/openapi.yaml
